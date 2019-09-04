@@ -2,9 +2,7 @@
 const errText = ['标', '視頻', '视频']
 const RuleOfCheckDiffChinese = {
   meta: {
-    messages: {
-      invalidName: 'hello word'
-    }
+    type: 'suggestion'
   },
   create(context) {
     return {
@@ -23,6 +21,7 @@ const RuleOfCheckDiffChinese = {
     }
   }
 }
-export const rules = {
+const rules = {
   'check-diff-chinese': RuleOfCheckDiffChinese
 }
+module.exports = rules
