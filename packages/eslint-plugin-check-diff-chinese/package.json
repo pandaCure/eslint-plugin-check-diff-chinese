@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-check-diff-chinese",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "pandaCure <zzyamor@163.com>",
+  "homepage": "https://github.com/pandaCure/lerna#readme",
+  "license": "ISC",
+  "main": "lib/eslint-plugin-check-diff-chinese.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandaCure/lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/pandaCure/lerna/issues"
+  }
+}
