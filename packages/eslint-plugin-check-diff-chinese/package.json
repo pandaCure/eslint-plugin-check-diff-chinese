@@ -25,9 +25,13 @@
   },
   "gitHead": "df00fcdd1162b9993b6c1b9f04f1ed80e520f53a",
   "peerDependencies": {
-    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0"
+    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0",
+    "opencc": "^1.0.5"
   },
   "engines": {
     "node": ">=7"
+  },
+  "dependencies": {
+    "opencc": "^1.0.5"
   }
 }

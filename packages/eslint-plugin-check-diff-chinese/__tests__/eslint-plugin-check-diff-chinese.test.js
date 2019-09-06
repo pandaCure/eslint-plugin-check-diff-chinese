@@ -19,12 +19,21 @@ ruleTester.run('check-diff-chinese', rule, {
     { code: '<App>影片</App>;' },
     { code: "const a = '影片'" },
     { code: "const a = () => { const s = '影片' }" },
-    { code: "const a = { b: '影片', c: { d: '影片' } }" }
+    { code: "const a = { b: '影片', c: { d: '影片' } }" },
+    { code: "<App foo={'影片'} />;", options: [{ opencc: true }] }
   ],
   invalid: [
     {
       code: "<App foo={'视频'} />;",
       output: "<App foo={'影片'} />;",
+      errors: [
+        { message: 'foo --->  视频 是包含错用错别字 请修改 （づ￣3￣）づ╭❤～' }
+      ]
+    },
+    {
+      code: "<App foo={'视频'} />;",
+      output: "<App foo={'視訊'} />;",
+      options: [{ opencc: true }],
       errors: [
         { message: 'foo --->  视频 是包含错用错别字 请修改 （づ￣3￣）づ╭❤～' }
       ]
