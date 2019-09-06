@@ -18,7 +18,7 @@
     "url": "git+https://github.com/pandaCure/lerna.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "node ./__tests__/eslint-plugin-check-diff-chinese.test.js"
   },
   "bugs": {
     "url": "https://github.com/pandaCure/lerna/issues"

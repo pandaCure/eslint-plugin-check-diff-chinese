@@ -3,5 +3,11 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.16.4"
+  },
+  "scripts": {
+    "test": "lerna run test"
+  },
+  "dependencies": {
+    "eslint": "^6.3.0"
   }
 }
