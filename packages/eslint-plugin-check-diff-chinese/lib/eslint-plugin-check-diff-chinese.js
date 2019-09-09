@@ -180,7 +180,4 @@ const RuleOfCheckDiffChinese = {
     }
   }
 }
-const rules = {
-  'check-diff-chinese': RuleOfCheckDiffChinese
-}
-module.exports = rules
+module.exports = RuleOfCheckDiffChinese

@@ -1,3 +1,5 @@
 module.exports = {
-  rules: require('./lib/eslint-plugin-check-diff-chinese.js')
+  rules: {
+    'check-diff-chinese': require('./lib/eslint-plugin-check-diff-chinese.js')
+  }
 }
