@@ -12,7 +12,8 @@
   },
   "files": [
     "lib",
-    "config"
+    "config",
+    "index.js"
   ],
   "repository": {
     "type": "git",
