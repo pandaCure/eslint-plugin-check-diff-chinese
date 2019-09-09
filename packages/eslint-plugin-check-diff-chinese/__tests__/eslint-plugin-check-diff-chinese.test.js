@@ -1,9 +1,7 @@
 'use strict'
 
 const RuleTester = require('eslint').RuleTester
-const rule = require('../lib/eslint-plugin-check-diff-chinese')[
-  'check-diff-chinese'
-]
+const rule = require('../lib/check-diff-chinese')['check-diff-chinese']
 
 const parserOptions = {
   ecmaVersion: 2018,
